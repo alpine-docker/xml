@@ -1,4 +1,5 @@
 FROM python:3
 
-RUN apk add --update --no-cache libxml2-utils bash jq
-RUN pip install yq
+RUN apt-get update && \
+    apt-get install -y jq libxml2-utils
+RUN pip install --upgrade yq pip
