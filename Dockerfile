@@ -1,5 +1,4 @@
-FROM python:3
+FROM python:3-alpine
 
-RUN apt-get update && \
-    apt-get install -y jq libxml2-utils
+RUN apk add --update --no-cache jq libxml2-utils curl
 RUN pip install --upgrade yq pip
