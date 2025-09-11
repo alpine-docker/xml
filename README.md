@@ -1,5 +1,6 @@
 # xml parser
 
+This repo has been archived, its image will be maintained in repo https://github.com/alpine-docker/multi-arch-docker-images/tree/master/xml
 ### Github Repo
 
 https://github.com/alpine-docker/xml
